@@ -1,16 +1,16 @@
-Q1. What is difference between Data Warehouse and DataMart?
-Q2. How many Types of Slowly Changing Dimensions, in detailed?
-Q3. What is Fact Table and Dimension Table?
-Q4. How many types of Dimension Table?
-Q5. What is fact table with example?
-Q6. What is Star Schema?
-Q7. What is Snow Flake Schema?
-Q8. What is SCD 0,SCD 1,SCD 2,SCD 3 and SCD 6 ?
-Q9. What is OLTP and OLAP?
+Q1. What is difference between Data Warehouse and DataMart? --
+Q2. How many Types of Slowly Changing Dimensions, in detailed?--
+Q3. What is Fact Table and Dimension Table? ++
+Q4. How many types of Dimension Table?--
+Q5. What is fact table with example?--
+Q6. What is Star Schema?--
+Q7. What is Snow Flake Schema?--
+Q8. What is SCD 0,SCD 1,SCD 2,SCD 3 and SCD 6 ?--
+Q9. What is OLTP and OLAP?--
 Q10. How can we load time Dimension?
 Q11. What is conformed fact?
 Q12. Whatever Dimension Tablecan have numeric value?
 Q13. What is Surrogate Key?
 Q14. Steps to build datawarehouse?
-Q15. What is ETL and ELT?
-Q.16 What is Metadata?
+Q15. What is ETL and ELT?--
+Q.16 What is Metadata?--
