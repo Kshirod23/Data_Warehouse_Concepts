@@ -1,0 +1,4 @@
+Q1. What is Data Warehouse ?
+A data warehouse is constructed by integrating data from multiple heterogeneous sources. 
+It supports analytical reporting, structured and/or ad hoc queries and decision making. 
+This tutorial adopts a step-by-step approach to explain all the necessary concepts of data warehousing.
