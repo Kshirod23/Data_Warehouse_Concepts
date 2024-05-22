@@ -1,0 +1,14 @@
+Q1.	How many Types of Slowly Changing Dimensions, in detailed? SCD
+
+Type 0 – Fixed Dimension
+•	No changes allowed, dimension never changes
+Type 1 – No History
+•	UPDATE and INSERT. If record is available in dimension table, then update else Insert. No history maintained.
+Type 2 – Row Versioning
+•	If any changes happened dimension in source, then updated record will be inserted in to dim table and old record will still be there for row versioning. Row Versioning is maintained by ISACTIVE, effective_dt and expiry_dt column. 
+Type 3 – Previous Value column
+•	Track change to a specific attribute, add a column to show the previous value, which is updated as further changes occur
+Type 4 – History Table
+Show current value in dimension table but track all changes in separate table
+Type 6 – Hybrid SCD
+Utilise techniques from SCD Types 1, 2 and 3 to track change
